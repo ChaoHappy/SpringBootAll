@@ -1,0 +1,12 @@
+server:
+  port: 8888
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3308/mybatis_learn?useSSL=true&useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT
+    username: root
+    password: 1111
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQL5Dialect
